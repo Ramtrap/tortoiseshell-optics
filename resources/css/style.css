@@ -114,7 +114,6 @@ header div.container {
   align-items: center;
   justify-content: center;
   height: 5rem;
-  padding:
 }
 
 .icon-image img {
@@ -173,4 +172,9 @@ footer img {
 
 .footer-logo {
   padding: 4rem 1rem 4rem 4rem;
+}
+
+.footer-span {
+  text-decoration: none;
+  color: black;
 }
