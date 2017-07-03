@@ -307,7 +307,7 @@ footer img {
     height: 14rem;
   }
   .tagline {
-    margin: 10rem auto 3 auto;
+    margin: 10rem auto 3rem auto;
   }
   .tagline-text {
     padding: 0.5rem 3rem;
@@ -322,8 +322,6 @@ footer img {
 /*Just in case when we go to columns*/
 @media only screen and (max-width: 220px) {
   .icon {
-    .solutions {
-      margin-top: 7rem;
-    }
+    margin-top: 2rem;
   }
 }
