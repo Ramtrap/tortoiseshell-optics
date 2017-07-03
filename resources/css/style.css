@@ -153,7 +153,7 @@ header div.container {
 
 .info-header-description {
   margin-top: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .info-header-description {
@@ -208,6 +208,9 @@ footer img {
   .tagline h1 {
     font-size: 1.33rem;
   }
+  .info-container {
+    justify-content: space-around;
+  }
 }
 
 
@@ -228,6 +231,9 @@ footer img {
   .banner {
     background-position: 20%;
     height: 17rem;
+  }
+  .banner nav {
+    background-color: goldenrod;
   }
   .logo-text {
     display: none;
@@ -271,10 +277,18 @@ footer img {
   .info .info-header-text {
     width: 100%;
     max-width: 100%;
+    background-color: goldenrod;
+  }
+  .info-header-description {
+    padding: 0 2rem;
+  }
+  #philosophy {
+    margin-right: 0;
   }
   footer {
-    width: 100%;
     justify-content: center;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
   }
   .footer-logo {
     padding: 4rem 0;
