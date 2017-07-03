@@ -23,7 +23,6 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   height: 34rem;
-  width: 100%;
   padding-top: 1rem;
 }
 
@@ -70,6 +69,11 @@ ul a {
 
 ul a li {
   display: inline;
+}
+
+.mobile-nav {
+  display: none;
+  padding: 0.75rem 0;
 }
 
 header div.container {
@@ -177,4 +181,135 @@ footer img {
 .footer-span {
   text-decoration: none;
   color: black;
+}
+
+
+
+/*   MEDIA QUERIES   */
+/*iPad 4th gen and below*/
+@media only screen and (max-width: 1024px) {
+  .banner {
+    padding-top: 0;
+    height: 22rem;
+  }
+  .banner .container {
+    max-width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .tagline {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .tagline-text {
+    padding: 0.75rem 4rem;
+  }
+  .tagline h1 {
+    font-size: 1.33rem;
+  }
+}
+
+
+
+
+/*Change container width to 100%*/
+@media only screen and (max-width: 960px) {
+  .mobile {
+    font-size: 16px;
+  }
+}
+
+
+
+
+/*Samsung Galaxy S7*/
+@media only screen and (max-width: 640px) {
+  .banner {
+    background-position: 20%;
+    height: 17rem;
+  }
+  .logo-text {
+    display: none;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .tagline {
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .solutions {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    justify-content: flex-start;
+  }
+  .icon {
+    margin-top: 3rem;
+    height: auto;
+    margin: 0.77rem;
+    font-size: 0.77rem;
+  }
+  .icon-text {
+    margin-top: 1rem;
+  }
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    justify-content: flex-start;
+  }
+  .info {
+    width: auto;
+  }
+  .info .info-header-text {
+    width: 100%;
+    max-width: 100%;
+  }
+  footer {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-logo {
+    padding: 4rem 0;
+  }
+  .footer-span {
+    display: none;
+  }
+}
+
+
+
+/*Very old phones, or poor graphics cards*/
+@media only screen and (max-width: 480px) {
+  .banner {
+    background-position: 20%;
+    height: 14rem;
+  }
+  .tagline {
+    margin: 10rem auto 3 auto;
+  }
+  .tagline-text {
+    padding: 0.5rem 3rem;
+  }
+  .tagline h1 {
+    font-size: 1rem;
+  }
+}
+
+
+
+/*Just in case when we go to columns*/
+@media only screen and (max-width: 220px) {
+  .icon {
+    .solutions {
+      margin-top: 7rem;
+    }
+  }
 }
